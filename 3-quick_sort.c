@@ -28,7 +28,7 @@ void quick_sort(int *array, size_t size)
  * Return: Void function
  */
 
-void quick_sort_recursive(array, size, low, high)
+void quick_sort_recursive(int *array, size_t size, int low, int high)
 {
 	int pivot_index;
 
